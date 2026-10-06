@@ -15,12 +15,9 @@ export default function Home() {
 
   return (
     <main className="relative flex min-h-screen justify-center px-4 py-8 sm:px-6 sm:py-12">
-      <div className="absolute right-4 top-4">
-        <ModeToggle />
-      </div>
-
       <Tabs defaultValue="about" className="w-full max-w-4xl">
-        <TabsList variant="line" className="mx-auto">
+      <div className="sticky top-0 z-10 flex justify-center bg-background/10 py-2 backdrop-blur">
+        <TabsList variant="line">
           <TabsTrigger value="about" className="px-2 text-xs sm:px-4 sm:text-sm">
             Home
           </TabsTrigger>
@@ -34,6 +31,10 @@ export default function Home() {
             Contact
           </TabsTrigger>
         </TabsList>
+        <div className="absolute right-4">
+        <ModeToggle />
+      </div>
+      </div> 
 
         <Separator className="my-3" />
 
