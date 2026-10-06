@@ -16,12 +16,12 @@ import { asset } from "@/lib/asset"
 
 export function AboutTab() {
   return (
-          <Card>
+          <Card className="animate-in fade-in duration-600">
             <CardHeader className="justify-items-center text-center">
               <img
                 src={asset("/me.jpg")}
                 alt="My profile"
-                className="mx-auto size-32 rounded-full border object-cover sm:size-40"
+                className="animate-in fade-in zoom-in-95 duration-700 mx-auto size-32 rounded-full border object-cover sm:size-40"
               />
               <CardTitle className="mt-4 text-xl font-bold sm:text-3xl">
                 <Typewriter text="James Harold Saez" speed={100} />

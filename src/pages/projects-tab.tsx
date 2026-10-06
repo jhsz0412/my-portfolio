@@ -22,7 +22,7 @@ export function ProjectsTab() {
               <CardTitle>Featured Projects</CardTitle>
               <CardDescription>A selection of things I've built.</CardDescription>
             </CardHeader>
-            <CardContent className="grid gap-6 sm:grid-cols-2">
+            <CardContent className="animate-in fade-in duration-1000 grid gap-6 sm:grid-cols-2">
               {projects.map((project) => (
                 <div
                   key={project.title}
