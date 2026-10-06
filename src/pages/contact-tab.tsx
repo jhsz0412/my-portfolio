@@ -22,7 +22,7 @@ export function ContactTab() {
     setForm({ name: "", email: "", message: "" })
   }
     return (
-          <Card>
+          <Card className="animate-in fade-in duration-600">
             <CardHeader>
               <CardTitle>Contact</CardTitle>
               <CardDescription>

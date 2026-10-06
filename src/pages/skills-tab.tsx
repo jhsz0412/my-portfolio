@@ -18,7 +18,7 @@ export function SkillsTab() {
                 Languages, technologies, and tools I work with.
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-6">
+            <CardContent className="animate-in fade-in duration-1000 space-y-6">
               {skillGroups.map((group) => (
                 <div key={group.title} className="space-y-3">
                   <h3 className="text-sm font-semibold">{group.title}</h3>
