@@ -6,19 +6,20 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/index"
-import { MapPin, Heart, BookOpen, Download } from "lucide-react"
+import { MapPin, Download } from "lucide-react"
 import { Separator } from "@base-ui/react"
 import { Typewriter } from "@/components/typewriter"
 import { contactLinks } from "@/data/contact"
 import { experiences, education } from "@/data/experiences"
 import { iconHelper, invertOnDark } from "@/data/icon-helper"
+import { asset } from "@/lib/asset"
 
 export function AboutTab() {
   return (
           <Card>
             <CardHeader className="justify-items-center text-center">
               <img
-                src="/me.jpg"
+                src={asset("/me.jpg")}
                 alt="My profile"
                 className="mx-auto size-32 rounded-full border object-cover sm:size-40"
               />
