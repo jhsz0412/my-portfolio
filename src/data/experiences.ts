@@ -9,7 +9,7 @@ export const experiences: Experience[] = [
     duration: "6 mos",
     location: "Quezon City, Philippines",
     description:
-    "Technical Consultant specializing in HRIS implementation using the Odoo framework. Led Python backend development to create and optimize standardized HRIS reports for business and client requirements, using JasperReports for report generation. Handled system configuration, data integration, report customization, deployment support, and client requirement analysis.",
+    "Spearheaded HRIS implementations, leveraging Python backend development to design and optimize custom business reports. Managed end-to-end system configuration, data integrations, workflow customization, and deployment support while translating client requirements into scalable technical setups.",
     skills: ["Python", "Odoo ERP", "Jasper Studio", "Linux Ubuntu"],
   },
   {
@@ -20,7 +20,7 @@ export const experiences: Experience[] = [
     duration: "9 mos",
     location: "Makati City, Philippines",
     description:
-    "Technical Consultant specializing in HRIS. Collaborated with clients on requirements gathering, business process analysis, and system gap analysis, translating findings into tailored HRIS configurations. Designed, implemented, and maintained HRIS modules across timekeeping, recruitment, payroll, compliance, and reporting, and managed biometric time-and-attendance integrations for accurate time tracking and reliable payroll processing.",
+    "Handled technical customization and feature upgrades for an established enterprise HRIS. Developed tailored solutions to meet specific client needs across timekeeping and payroll workflows, configuring and integrating biometric hardware devices for automated time tracking and synced report generation",
     skills: ["C#", "ASP.NET Core Web API", "REST API", "React JS"],
   },
   {
@@ -31,17 +31,17 @@ export const experiences: Experience[] = [
     duration: "5 mos",
     location: "Makati City, Philippines",
     description:
-    "Frontend Developer for the Application Tracking System (ATS). Developed and enhanced a web-based recruitment platform, improving the online application process, applicant tracking, and recruiter workflow.",
+    "Frontend Developer for an enterprise-level Applicant Tracking System (ATS). Architected and optimized intuitive, responsive web interfaces to modernize candidate recruitment pipelines, job postings, candidate screening, and recruiter evaluation dashboards.",
     skills: ["React JS", "Figma", "HTML", "CSS", "JavaScript", "REST API"],
   },
     {
     company: "Self Employed",
     type: "Freelance",
     position: "Fullstack Web Developer",
-    period: "Jan 2023 – Jul 2025",
-    duration: "2 yrs 7 mos",
+    period: "Jan 2024 – Jul 2025",
+    duration: "1 yr 7 mos",
     description:
-    "Designed and developed customized web and mobile systems for government offices and private businesses. Gained strong experience in full-stack development, system design, and database management, delivering practical solutions that improve efficiency, accuracy, and overall business performance.",
+    "Designed and developed customized web and mobile systems for government offices and private businesses. Gained strong experience in full-stack development, system design and integrations, delivering scalable end-to-end software solutions aligned with client and business requirements.",
     skills: [
       "React JS",
       "PHP",

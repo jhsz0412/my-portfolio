@@ -13,7 +13,7 @@ export function SkillsTab() {
   return (
           <Card>
             <CardHeader>
-              <CardTitle>My Technical Proficiencies</CardTitle>
+              <CardTitle>Technical Proficiencies</CardTitle>
               <CardDescription>
                 Languages, technologies, and tools I work with.
               </CardDescription>

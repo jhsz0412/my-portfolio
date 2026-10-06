@@ -56,7 +56,7 @@ export function AboutTab() {
             </CardHeader>
             <CardContent className="space-y-6 text-sm text-muted-foreground">
               <p className="mx-auto max-w-2xl text-center">
-                Technical Consultant and Full-Stack Developer focused on building business applications, HRIS solutions, and reporting systems. I work across backend development, system integration, databases, and frontend interfaces to turn business requirements into practical software.
+                I design and build modern business applications, Experienced across corporate teams and freelance projects, turning complex business needs into clean, intuitive, and practical software solutions.
               </p>
 
               {/* EXPERIENCE TIMELINE */}
