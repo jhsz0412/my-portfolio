@@ -45,7 +45,7 @@ export function AboutTab() {
                   </a>
                 ))}
                 <a
-                  href="/resume.pdf"
+                  href={asset("/resume.pdf")}
                   download="James_Harold_Saez_Resume.pdf"
                   className="inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm transition-colors hover:bg-accent hover:text-accent-foreground"
                 >
