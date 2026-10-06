@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/index"
 import { projects } from "@/data/projects"
 import { iconHelper, invertOnDark } from "@/data/icon-helper"
+import { asset } from "@/lib/asset"
 
 export function ProjectsTab() {
   return (
@@ -33,7 +34,7 @@ export function ProjectsTab() {
                       {project.images.map((src, index) => (
                         <CarouselItem key={src} className="pl-0">
                           <img
-                            src={src}
+                            src={asset(src)}
                             alt={`${project.title} screenshot ${index + 1}`}
                             className="aspect-video w-full object-cover"
                           />

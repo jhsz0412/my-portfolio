@@ -1,4 +1,4 @@
-export const iconHelper: Record<string, string> = {
+const rawIcons: Record<string, string> = {
   // Frontend
   "React": "/tech-logos/react.png",
   "React JS": "/tech-logos/react.png",
@@ -69,7 +69,12 @@ export const iconHelper: Record<string, string> = {
   "Kubernetes": "/tech-logos/kubernetes.png",
 }
 
+const withBase = (path: string) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`
 
+export const iconHelper: Record<string, string> = Object.fromEntries(
+  Object.entries(rawIcons).map(([name, path]) => [name, withBase(path)])
+)
 
 // Logos that are black and disappear in dark mode. Add any name that looks invisible.
 export const invertOnDark = new Set(["ShadCN", "Github", "OpenAI", "Codex", "JWT"])
